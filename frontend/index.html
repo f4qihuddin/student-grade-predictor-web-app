@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Grade Predictor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Student Grade Predictor</h1>
+    <div class="student-data">
+      <form id="predict-form" class="form-div" action="">
+        <div class="input-data">
+          <p>First Period Grade:</p>
+          <input id="g1" type="text" />
+        </div>
+        <div class="input-data">
+          <p>Second Period Grade:</p>
+          <input id="g2" type="text" />
+        </div>
+        <div class="input-data">
+          <p>Student's School:</p>
+          <select id="school">
+            <option value="GP">Gabriel Pereira</option>
+            <option value="MS">Mousinho da Silveira</option>
+          </select>
+        </div>
+        <div class="input-data">
+          <p>Reason to choose this school:</p>
+          <select id="reason">
+            <option value="course">Course Preference</option>
+            <option value="home">Close to Home</option>
+            <option value="reputation">School's Reputation</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="input-data">
+          <p>Wants to take higher education:</p>
+          <select id="higher">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div class="input-data">
+          <p>Internet Access:</p>
+          <select id="internet">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div class="input-data">
+          <p>Romantic Relationship:</p>
+          <select id="romantic">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div class="button-div">
+          <button type="submit">Predict</button>
+        </div>
+      </form>
+    </div>
+    <div class="output">
+      <p>Final Grade's Prediction:</p>
+      <p class="student-grade"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

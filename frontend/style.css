@@ -1,0 +1,79 @@
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #caf0f8;
+    gap: 40px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+form button {
+    width: 200px;
+    padding: 10px;
+    font-size: large;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #0077b6;
+}
+
+form input:focus{
+    outline: none;
+    border: none;
+}
+
+.input-data {
+    display: flex;
+    gap: 20px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-div {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.student-data {
+    background-color: #90e0ef;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.output {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0077b6 ;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.student-grade {
+    font-size: 50px;
+}
